@@ -86,5 +86,30 @@
     	<option value="WY">WY</option>
     </select>
 
+    <label for="zip_code">Zip Code</label>
+    <input type="number" id="zip_code" name="user_zip" value="">
+
+    <hr>
+
+    <h2>Newsletter</h2>
+    <p>Select the newsletters you would like to recieve</p>
+    <input type="checkbox" id="html_news" name="user_newsletter" value="newsletter_html"><label for="html_news">HTML News</label><br>
+    <input type="checkbox" id="css_news" name="user_newsletter" value="newsletter_css"><label for="css_news">CSS News</label><br>
+    <input type="checkbox" id="javascript_news" name="user_newsletter" value="newsletter_javascript"><label for="javascript_news">Javascript News</label><br>
+
+    <label>Newsletter Format</label>
+    <input type="radio" id="format_html" name="user_format" value="format_html"><label for="format_html">HTML</label>
+    <input type="radio" id="format_plain_text" name="user_format" value="format_plain_text"><label for="format_plain_text">Plain text</label>
+
+    <label for="other_topics">Other topics you'd like to hear about</label>
+    <textarea id="other_topics" name="user_other_topics" rows="3" cols="80"></textarea>
+
+    <button type="submit" name="button">Sign Up</button>
+
+    <footer class="main_footer">
+      <p>Copyright The Code Review</p>
+    </footer>
+
   </body>
+
 </html>
