@@ -111,6 +111,12 @@ input:focus {
   outline-color: #333f6b;
 }
 
+#state {
+  border-radius: 5px;
+  border: none;
+  outline-color: #333f6b;
+}
+
 #zip_code {
   width: 50%;
 }
@@ -137,6 +143,43 @@ fieldset p {
   padding-bottom: 1em;
 }
 
+label[for='html_news'],
+label[for='css_news'],
+label[for='javascript_news'],
+label[for='format_html'],
+label[for='format_plain_text'] {
+  padding-left: .7em;
+}
+
+.newsletter_format {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-bottom: 1em;
+}
+
+.format_label {
+  display: inline;
+}
+
+textarea {
+  margin-top: 1em;
+  outline-color: #333f6b;
+  padding-top: .6em;
+  padding-left: .8em;
+}
+
+.format_other_topics textarea {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+}
+
 /* Page Elements --------------------------*/
 
 .double_line {
@@ -146,8 +189,24 @@ fieldset p {
 .single_line {
   background-color: #0e2930;
   height: 3px;
-
 }
 
+button {
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: #41b5ab;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.main_footer p {
+  padding-top: 1em;
+  text-align: center;
+  font-family: 'Merriweather-Light';
+  color: #aaaaaa;
+  font-style: italic;
+}
 
 /* Media Queries --------------------------*/
