@@ -213,15 +213,9 @@ button {
 
 @media (min-width: 768px) {
 
-.format_contact_labels {
-  flex-direction: column;
-  align-items: left;
-}
-
-.format_contact_inputs {
-  flex-direction: column;
-  align-items: right;
-  width: 50%;
+.format_contact_info {
+  display: flex;
+  flex-direction: row;
 }
 
 
