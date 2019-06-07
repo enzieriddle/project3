@@ -210,3 +210,19 @@ button {
 }
 
 /* Media Queries --------------------------*/
+
+@media (min-width: 768px) {
+
+.format_contact_labels {
+  flex-direction: column;
+  align-items: left;
+}
+
+.format_contact_inputs {
+  flex-direction: column;
+  align-items: right;
+  width: 50%;
+}
+
+
+}
