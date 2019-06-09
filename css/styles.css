@@ -228,12 +228,6 @@ button {
 
 @media (min-width: 768px) {
 
-.format_form {
-  display: flex;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
 .format_contact_info {
   flex-wrap: wrap;
   flex-direction: row;
