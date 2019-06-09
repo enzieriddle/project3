@@ -22,7 +22,6 @@
 }
 
 fieldset {
-  display: flex;
   border: none;
 }
 
@@ -95,6 +94,11 @@ select option {
   padding-top: .85em;
   padding-bottom: .85em;
   color: #0e2930;
+}
+
+.format_contact_info {
+  display: flex;
+  flex-direction: column;
 }
 
 .personal_info input {
@@ -213,13 +217,13 @@ button {
 
 @media (min-width: 768px) {
 
-.format_contact_info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
 .format_form {
+  display: flex;
   max-width: 80%;
   margin: 0 auto;
+}
+
+.format_contact_info {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
