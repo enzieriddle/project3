@@ -215,8 +215,11 @@ button {
 
 .format_contact_info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
-
+.format_form {
+  max-width: 80%;
+  margin: 0 auto;
 }
