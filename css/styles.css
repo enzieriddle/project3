@@ -108,6 +108,12 @@ select option {
   flex-direction: column;
 }
 
+input,
+select,
+textarea {
+  transition: .35s ease-in-out;
+}
+
 .personal_info input {
   width: 100%;
   height: 50px;
@@ -118,8 +124,11 @@ select option {
   border-radius: 5px;
 }
 
-input:focus {
-  outline-color: #333f6b;
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: #4c2e48;
+  background-color: #ead7e8;
 }
 
 #state {
@@ -169,8 +178,10 @@ label[for='format_plain_text'] {
 }
 
 .newsletter_format {
-  padding-top: 2.5em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: .2em;
+  font-family: 'Merriweather-Light';
+  font-weight: lighter;
 }
 
 input[type="checkbox"],
@@ -180,6 +191,10 @@ input[type="radio"] {
 
 .format_label {
   display: inline;
+}
+
+input[value='format_plain_text'] {
+  margin-bottom: 3em;
 }
 
 textarea {
@@ -246,8 +261,7 @@ button {
 
 label {
   display: inline-block;
-  width: 15%;
-  margin-right: auto;
+  width: 20%;
 }
 
 input[type='text'],
@@ -256,11 +270,11 @@ input[type='tel'],
 select {
   display: inline-block;
   width: 80%;
-  margin-left: auto;
 }
 
 .edit_newsletter label,
 .format_other_topics label {
   display: inline;
   width: 100%;
+}
 }
