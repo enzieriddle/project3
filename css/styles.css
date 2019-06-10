@@ -67,6 +67,7 @@ select option {
 /* Layout Containers ----------------------*/
 .main_header {
   text-align: center;
+  background-color: #ead7e8;
 }
 
 .main_header h1 {
@@ -74,7 +75,7 @@ select option {
   padding-top: 1em;
   padding-bottom: 1em;
   color: #ffffff;
-  background-color: #0e2930;
+  background-color: #4c2e48;
 }
 
 .main_header h2 {
@@ -88,7 +89,8 @@ select option {
 
 .main_header p {
   padding: 0 4em 1em 4em;
-  color: #aaaaaa;
+  margin-bottom: -.5em;
+  color: #7a7979;
   font-family: 'Merriweather-Light';
   font-size: 1rem;
 }
@@ -198,11 +200,12 @@ textarea {
 /* Page Elements --------------------------*/
 
 .double_line {
-  border-top: 10px double #0e2930;
+  border-top: 10px double #4c2e48;
 }
 
 .single_line {
-  background-color: #0e2930;
+  background-color: #4c2e48;
+  border: none;
   height: 3px;
 }
 
