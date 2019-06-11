@@ -110,7 +110,7 @@ select option {
 
 input,
 select,
-textarea {
+.format_other_topics textarea {
   transition: .35s ease-in-out;
 }
 
@@ -126,7 +126,7 @@ textarea {
 
 input:focus,
 select:focus,
-textarea:focus {
+.format_other_topics textarea:focus {
   outline-color: #4c2e48;
   background-color: #ead7e8;
 }
